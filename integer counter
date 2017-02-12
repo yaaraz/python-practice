@@ -1,0 +1,5 @@
+i = range(200,251,5)
+print(len(i))
+
+
+##holy shit i can't believe i did this##

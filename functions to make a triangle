@@ -1,0 +1,30 @@
+import turtle
+
+def ch3Turtle_2():
+    wn = turtle.Screen()
+
+    wn.bgcolor("lightgreen")
+    wn.title("Hello, Tess!")
+
+    tess = turtle.Turtle()
+    tess.clor("blue")
+    tess.pensize(3)
+
+def draw_triangle(t,sz):
+    "'Make turtle t draw a triangle of sz.'"
+    for i in range (3):
+        t.forward(sz)
+        t.left(120)
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+wn.title("Hello, Tess!")
+
+tess = turtle.Turtle()
+tess.color("blue")
+tess.pensize(3)
+alex= turtle.Turtle() ##Create alex
+draw_triangle(alex, 50)
+wn.mainloop()

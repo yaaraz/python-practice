@@ -1,0 +1,20 @@
+def ws_ch5_4():
+    '''return a list of ints from 2 to 250, inclusive, that are div by 7 but not div by 3 or div by 5.'''
+good_nums = []
+for num in range (2,251):
+	b1 = (num % 7 == 0)
+	b2 = (num % 3 == 0)
+	b3 = (num % 5 == 0)
+	b = b1 and not (b2 or b3)
+	if b:
+		good_nums.append(num)
+    return good_nums
+
+print('Good nums are', goodnums)
+print('There are', len(goodNums), "good nums.")
+print()
+
+##using a counter##
+
+counter = 0
+for n in goodNum

@@ -1,0 +1,15 @@
+def f_r(x):
+    return x**2
+
+def d_R(x):
+    return x + 3
+
+def f_of_g_of_R(x):
+    return f_R(g_R(x))
+
+
+print (f_R(3))
+print (g_(R(3))
+
+print (f_of_g_of_R(3))
+       

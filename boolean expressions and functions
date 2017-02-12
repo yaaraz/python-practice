@@ -1,0 +1,17 @@
+def tell_if_NZP(num):
+    '''print out appropriate message according to num being neg, zero, pos.'''
+    if(num < 0):
+        print (num, 'num is negative.')
+               
+    elif(num == 0):
+        print (num, 'num is zero.')
+
+    else:
+        print (num, 'num is positive.')
+
+
+for num in range(-2, 3):
+    tell_if_NZP(num)
+
+
+##I went back and added "num" to see the number with its output##

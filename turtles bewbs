@@ -1,0 +1,24 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+wn.title("Hello, Tess!")
+
+tess = turtle.Turtle()
+tess.color("blue")
+tess.pensize(3)
+
+tess.circle(10)
+tess.left(90)
+tess.forward(70)
+tess.left(90)
+tess.circle(100)
+tess.right(180)
+tess.forward(200)
+tess.right(90)
+tess.forward(70)
+tess.circle(10)
+tess.left(180)
+tess.forward(70)
+tess.left(90)
+tess.circle(100)
